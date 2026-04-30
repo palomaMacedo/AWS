@@ -1,6 +1,8 @@
 <div align="right">
-  <img width="210" height="44" alt="Spanish version button" src="https://github.com/user-attachments/assets/b7b7f38c-82c8-4368-87fb-5e7d39f642cf" />
-</div>
+  <a href="./README-es.md">
+    <img width="210" height="44" alt="Spanish version button" src="https://github.com/user-attachments/assets/b7b7f38c-82c8-4368-87fb-5e7d39f642cf" />
+  </a>
+  </div>
 
 
 # ☁️ Resources — AWS for Developers
