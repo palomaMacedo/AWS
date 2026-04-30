@@ -47,7 +47,7 @@ A repository dedicated to my studies on **Amazon Web Services (AWS)**, covering 
  
 ## 🎯 Objectives
  
-- [x] Entender os fundamentos de Cloud Computing
+- [x] Understand the fundamentals of Cloud Computing
 - [ ] Create and configure my AWS account
 - [ ] Master the AWS CLI
 - [ ] Configure EC2 instances
