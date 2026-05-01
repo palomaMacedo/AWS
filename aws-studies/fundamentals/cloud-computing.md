@@ -26,9 +26,9 @@
 * Massive ecosystem: docs, community, examples
 
 ## Sure! Here it is:
-🔍 Did you know that Elasticsearch exists? It's a search and data analysis tool from an independent company!
-⚡ It's different from the Elastic in EC2 — which refers to the ability to scale computing resources in the cloud ☁️
-🤝 But Elasticsearch works great inside AWS! One more example of the platform's powerful ecosystem 🚀
+* 🔍 Did you know that Elasticsearch exists? It's a search and data analysis tool from an independent company!
+* ⚡ It's different from the Elastic in EC2 — which refers to the ability to scale computing resources in the cloud ☁️
+* 🤝 But Elasticsearch works great inside AWS! One more example of the platform's powerful ecosystem 🚀
 
 ##  REGIONS AND GLOBAL ARCHITECTURE
 Here we aim to explore the Regions, Availability Zones and how they connect to AWS's global architecture, highlighting their importance for scalability and resilience.
