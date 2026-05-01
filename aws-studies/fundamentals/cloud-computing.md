@@ -50,3 +50,5 @@ REGION BENEFITS
 * Each region is made up of several AZs.
 * This structure ensures high availability and redundancy.
 * The architecture is scalable and flexible to meet demands.
+---
+**AZ** = Availability Zone
