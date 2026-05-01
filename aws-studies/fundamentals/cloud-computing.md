@@ -11,13 +11,11 @@
 * Security and compliance with rigorous standards
 * Support for multiple programming languages
 
-
 ## Why Use AWS 
 * Access to scalable resources for your project
 * Flexibility in cloud services meets different needs
 * Support for multiple programming languages for developers
 * Integration with popular market tools that makes work easier
-
 
 ## Practical Tips
 * Scalability: grows alongside your project
@@ -26,7 +24,6 @@
 * Agility: from idea  to deploy in minutes
 * Global-grade security, ready to use
 * Massive ecosystem: docs, community, examples
-
 
 ## Sure! Here it is:
 🔍 Did you know that Elasticsearch exists? It's a search and data analysis tool from an independent company!
@@ -46,3 +43,10 @@ REGION BENEFITS
 * Choosing the right region is crucial
 * Understanding the available Availability Zones
 * Evaluating latency and compliance requirements
+
+##  AWS REGIONS
+
+* AWS has hundreds of global regions.
+* Each region is made up of several AZs.
+* This structure ensures high availability and redundancy.
+* The architecture is scalable and flexible to meet demands.
