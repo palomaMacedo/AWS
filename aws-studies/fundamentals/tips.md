@@ -77,3 +77,5 @@ Nginx configured
 Your application running
 
 You can create an AMI from that server and use it to launch 10 identical instances in seconds! 🚀
+
+⚠️ Important: AMIs are regional — if you create one in São Paulo, you need to copy it to use in another region!
