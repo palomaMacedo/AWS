@@ -98,6 +98,17 @@ REGION BENEFITS
 * Users and groups are fundamental for security.
 * Policies configure access rules across regions.
 
+## USERS AND GROUPS
 
+* Organize users in IAM easily
+* Create groups to simplify management
+* Assign appropriate permissions to each group
+
+
+## ACCESS POLICIES
+
+* Define effective permissions and restrictions
+* Manage secure access to resources
+* Simplify user and group administration
 
 **IAM** = Identity and Access Management
