@@ -20,10 +20,16 @@
 
 
 ## Practical Tips
-
 * Scalability: grows alongside your project
 * On-demand cost: pay only for what you use
 * Dev tools: SDKs, CLI, IaC
 * Agility: from idea  to deploy in minutes
 * Global-grade security, ready to use
 * Massive ecosystem: docs, community, examples
+
+
+## Sure! Here it is:
+🔍 Did you know that Elasticsearch exists? It's a search and data analysis tool from an independent company!
+⚡ It's different from the Elastic in EC2 — which refers to the ability to scale computing resources in the cloud ☁️
+🤝 But Elasticsearch works great inside AWS! One more example of the platform's powerful ecosystem 🚀
+
