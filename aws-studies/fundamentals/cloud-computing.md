@@ -89,3 +89,15 @@ REGION BENEFITS
 * Organize users into groups for management
 * Apply policies for access control
 * Integrate Region information for security
+
+
+## WHAT IS IAM?
+
+* Identity Management is essential.
+* Helps control access and permissions.
+* Users and groups are fundamental for security.
+* Policies configure access rules across regions.
+
+
+
+**IAM** = Identity and Access Management
