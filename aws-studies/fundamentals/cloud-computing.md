@@ -111,4 +111,11 @@ REGION BENEFITS
 * Manage secure access to resources
 * Simplify user and group administration
 
+## IAM REGIONS
+* The importance of regions in IAM management and their influence on security
+
+* IAM (Identity and Access Management) is not regional.
+* Users, groups, policies and roles exist at a global level.
+* A single AWS account → valid identities across all regions.
+
 **IAM** = Identity and Access Management
