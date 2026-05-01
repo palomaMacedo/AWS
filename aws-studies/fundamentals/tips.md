@@ -79,3 +79,62 @@ Your application running
 You can create an AMI from that server and use it to launch 10 identical instances in seconds! 🚀
 
 ⚠️ Important: AMIs are regional — if you create one in São Paulo, you need to copy it to use in another region!
+
+---
+⚖️ Load Balancers
+A Load Balancer is a traffic distributor — it receives requests and distributes them across multiple instances, preventing any single server from being overloaded.
+
+🔄 How it works
+Users → Load Balancer → Instance 1
+                      → Instance 2
+                      → Instance 3
+
+📦 Types of Load Balancers on AWS
+
+ALB (Application Load Balancer)
+
+Works at Layer 7 (HTTP/HTTPS)
+Routes traffic based on URL, headers, cookies
+Best for web applications and APIs
+
+
+NLB (Network Load Balancer)
+
+Works at Layer 4 (TCP/UDP)
+Extremely high performance and low latency
+Best for real-time applications
+
+
+GLB (Gateway Load Balancer)
+
+Used for security and firewall appliances
+Routes traffic through third-party virtual appliances
+
+
+CLB (Classic Load Balancer)
+
+Legacy — old generation
+Not recommended for new projects ⚠️
+
+
+
+
+✅ Main Benefits
+
+High availability — if one instance fails, traffic goes to another
+Scalability — distributes load automatically
+Health checks — removes unhealthy instances automatically
+SSL termination — manages HTTPS certificates centrally
+
+
+💡 Practical Example
+Imagine your app has 3 EC2 instances. Without a Load Balancer, all traffic hits just one server. With a Load Balancer:
+
+Instance 1 → handles 33% of traffic
+Instance 2 → handles 33% of traffic
+Instance 3 → handles 33% of traffic
+
+If Instance 1 goes down → Load Balancer automatically redirects to Instances 2 and 3! 🚀
+
+
+💡 Tip: For most web applications, ALB is the best choice. Use NLB only when you need ultra-low latency! ⚡
