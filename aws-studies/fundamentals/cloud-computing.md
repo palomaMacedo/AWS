@@ -118,4 +118,42 @@ REGION BENEFITS
 * Users, groups, policies and roles exist at a global level.
 * A single AWS account → valid identities across all regions.
 
+
+
+☁️ Summary — AWS Fundamentals
+1. Cloud Providers and Scalability
+Cloud Providers like AWS allow automatic migration between regions in case of failures, ensuring high availability — something difficult to achieve with local servers.
+2. IaaS vs PaaS
+
+IaaS — you control everything: RAM, CPU, OS. Ex: EC2
+PaaS — you just write the code, the provider manages the infrastructure. Ex: Elastic Beanstalk
+
+3. Lambda vs EC2
+
+EC2 — charges for running time, even without receiving requests
+Lambda — charges per request + execution time. If it doesn't run, you don't pay
+
+4. AWS S3
+Secure and scalable storage service. Stores any type of file (PDFs, code, Terraform) and allows access at any time. One of the most used AWS services.
+5. Multi-Region Architectures
+They are complex because each region has different prices, configurations and services. Requires data synchronization and backup across regions.
+6. AWS Cloud Shell
+Terminal integrated into the AWS console with AWS CLI already installed — allows executing commands directly, without local setup.
+7. Multiple Regions
+Increase the availability and resilience of the application. If one region goes down, another takes over automatically.
+8. Region Selection
+Always consider the proximity to end users to minimize latency and improve performance.
+9. Region vs AZ
+
+Region — geographic location (ex: São Paulo, Virginia)
+AZ (Availability Zone) — physical data center within a region
+Both are used for normal operations, not just backup
+
+10. IAM is Global
+IAM is not regional — users, groups, policies and roles apply to all regions of the same AWS account.
+11. What is IAM
+Service to manage identities and access in AWS. Controls who can access what, through users, groups, policies and roles.
+12. CLI vs Web Console
+Both have access to the same services. The CLI stands out for automation, productivity and scripting.
+
 **IAM** = Identity and Access Management
