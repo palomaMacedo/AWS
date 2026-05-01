@@ -11,3 +11,19 @@
 * Security and compliance with rigorous standards
 * Support for multiple programming languages
 
+
+## Why Use AWS 
+* Access to scalable resources for your project
+* Flexibility in cloud services meets different needs
+* Support for multiple programming languages for developers
+* Integration with popular market tools that makes work easier
+
+
+## Practical Tips
+
+* Scalability: grows alongside your project
+* On-demand cost: pay only for what you use
+* Dev tools: SDKs, CLI, IaC
+* Agility: from idea  to deploy in minutes
+* Global-grade security, ready to use
+* Massive ecosystem: docs, community, examples
