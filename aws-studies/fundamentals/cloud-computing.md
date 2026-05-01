@@ -52,3 +52,17 @@ REGION BENEFITS
 * The architecture is scalable and flexible to meet demands.
 ---
 **AZ** = Availability Zone
+
+
+## AVAILABILITY
+
+* Redundant infrastructure across multiple AZs
+* Minimizes interruption risks
+* Scalability for variable demands
+
+## IMPORTANCE
+
+* High availability guarantee
+* Geographic distribution of resources
+* Protection against local failures
+
