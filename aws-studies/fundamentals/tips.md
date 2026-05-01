@@ -43,3 +43,37 @@ Reserves capacity in a specific AZ to ensure your instance always has resources 
 
 
 💡 Tip: For production use On-Demand or Reserved. For flexible and fault-tolerant workloads, use Spot Instances to save money! 🚀
+
+---
+
+🖼️ AMI — Amazon Machine Image
+Think of an AMI as a "template" or "snapshot" of your server. It's like a complete photo of an already configured system.
+
+📀 ISO Analogy
+As you mentioned, it's similar to an ISO — but goes further:
+Traditional ISOAMIClean operating systemOS + applications + configurationsNeed to install everything from scratchAlready ready to useUsed onceCan launch multiple instances
+
+📦 What does an AMI contain?
+
+Operating system (Linux, Windows, etc.)
+Pre-installed software (Node, Nginx, Python...)
+System configurations
+Initial data if needed
+
+
+🔄 Types of AMI
+
+AWS official → Amazon Linux, Ubuntu, Windows Server
+AWS Marketplace → ready-made AMIs from third parties (ex: WordPress, etc.)
+Custom → you create your own from a configured instance
+Community → created by the community, free of charge
+
+
+💡 Practical Example
+Imagine you configured a server with:
+
+Node.js installed
+Nginx configured
+Your application running
+
+You can create an AMI from that server and use it to launch 10 identical instances in seconds! 🚀
