@@ -134,6 +134,60 @@ Instance 1 → handles 33% of traffic
 Instance 2 → handles 33% of traffic
 Instance 3 → handles 33% of traffic
 
+---
+
+⚡ Spot Instances — Spot Request
+
+🤔 What is it?
+EC2 instances with up to 90% discount — but with one condition: AWS can reclaim the instance at any moment when it needs the capacity back.
+
+🏷️ Analogy
+
+It's like buying a promotional airline ticket ✈️
+
+Much cheaper price
+But if the airline needs the seat, you can be removed from the flight!
+
+
+
+🔄 How does the Spot Request work?
+You define  → maximum price you accept to pay
+AWS checks  → current Spot market price
+
+If current price ≤ your limit → ✅ instance runs
+If current price > your limit → ❌ instance is terminated
+
+⚙️ Types of Spot Request
+
+One-time → if the instance is terminated, the request disappears
+Persistent → if the instance is terminated, the request tries to launch again automatically
+
+
+✅ When to use?
+
+Batch processing
+Machine Learning and model training
+Image/video rendering
+Big data analysis
+Workloads that can be interrupted and resumed
+
+
+❌ When NOT to use?
+
+Production databases
+Critical applications
+Workloads that cannot be interrupted
+
+
+💰 Price Comparison
+TypeCostOn-Demand100% (full price)Reserved~40% discountSpotup to 90% discount 🎉
+
+⚠️ Important Warning
+When AWS decides to terminate your Spot Instance, it gives you 2 minutes notice — time to save your work!
+
+
+💡 Tip: Use Spot Instances with Auto Scaling Groups to take advantage of the discount without compromising availability! 🚀
+
 If Instance 1 goes down → Load Balancer automatically redirects to Instances 2 and 3! 🚀
 
 
